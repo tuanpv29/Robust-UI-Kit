@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.py-6 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.mb-6 {
+  margin-bottom: 4.5rem;
+}
+
+.media {
+  display: flex;
+}
+
+.icon {
+  padding: 1rem;
+  border-radius: 0.35rem;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  line-height: 2;
+}
+
+a {
+  color: #343a40;
+  text-decoration: none;
+}
