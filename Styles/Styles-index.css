@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  font-weight: 600;
+  font-size: 18px;
+}
+
 .py-6 {
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
@@ -21,10 +26,12 @@
 }
 
 .icon {
-  padding: 1rem;
+  padding: 0.666rem;
   border-radius: 0.35rem;
   text-align: center;
   color: white;
+  font-size: 2rem;
+  line-height: 1;
 }
 
 footer {
@@ -34,4 +41,31 @@ footer {
 a {
   color: #343a40;
   text-decoration: none;
+}
+
+
+.position-relative {
+  position: relative;
+}
+
+.position-absoluted {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: o;
+  right: 0;
+  text-align: center;
+}
+
+.img-background {
+  opacity: 0.7;
 }

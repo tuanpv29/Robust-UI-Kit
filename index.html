@@ -10,12 +10,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="Styles/Styles-index.css">
+  <script src="https://kit.fontawesome.com/82bb699038.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-4">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark bg-transparent py-4 position-absoluted">
       <div class="container">
         <a class="navbar-brand" href="index.html">Robust.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -43,14 +44,14 @@
   </header>
 
   <main>
-    <section>
-      <div>
-        <img src="/Images/7.jpg" alt="Background image" width="100%" height="auto">
+    <section class="position-relative">
+      <div class="bg-overlay-primary">
+        <img class="img-background" src="/Images/7.jpg" alt="Background image" width="100%" height="auto">
       </div>
       <div class="container">
-        <div>
-          <h1>Robust UI Kit</h1>
-          <p>Robust is a premium theme built with Bootstrap. The theme is fully customizable & can be used for any type
+        <div class="center">
+          <h1 class="display-1 text-white">Robust UI Kit</h1>
+          <p class="lead text-white">Robust is a premium theme built with Bootstrap. The theme is fully customizable & can be used for any type
             of
             application.</p>
           <div>
@@ -79,27 +80,27 @@
         <div class="row pt-5">
           <div class="col-md-4">
             <a href="#">
-              <img src="/Images/landing-2.png" alt="Landing" width="100%" height="auto">
+              <img class="rounded shadow-sm" src="/Images/landing-2.png" alt="Landing" width="100%" height="auto">
             </a>
-            <h3>Landing</h3>
+            <h3 class="mt-4">Landing</h3>
             <p>Make your app look outstanding between the crowd using our wide variety of page components.</p>
-            <a href="#">Explore Pages</a>
+            <a href="#">Explore Pages ›</a>
           </div>
           <div class="col-md-4">
             <a href="#">
-              <img src="/Images/social-2.png" alt="Dashboard" width="100%" height="auto">
+              <img class="rounded shadow-sm" src="/Images/social-2.png" alt="Dashboard" width="100%" height="auto">
             </a>
-            <h3>Dashboard</h3>
+            <h3 class="mt-4">Dashboard</h3>
             <p>Create the best possible user experience for your customers using our app components.</p>
-            <a href="#">Explore Pages</a>
+            <a href="#">Explore Pages ›</a>
           </div>
           <div class="col-md-4">
             <a href="#">
-              <img src="/Images/careers.png" alt="Pages" width="100%" height="auto">
+              <img class="rounded shadow-sm" src="/Images/careers.png" alt="Pages" width="100%" height="auto">
             </a>
-            <h3>Pages</h3>
+            <h3 class="mt-4">Pages</h3>
             <p>Discover our wide variety of pages including blog, about, contact and error pages.</p>
-            <a href="#">Explores Pages</a>
+            <a href="#">Explores Pages ›</a>
           </div>
         </div>
       </div>
@@ -145,7 +146,7 @@
         <div class="row mt-5">
           <div class="col-md-4">
             <div class="media">
-              <div class="icon bg-dark mr-3">Icon</div>
+              <div class="icon bg-primary mr-3"><i class="far fa-id-badge"></i></div>
               <div>
                 <h3>Responsive</h3>
                 <p>With mobile, tablet & desktop support it doesn't matter what device you're using. Robust is
@@ -156,7 +157,7 @@
           </div>
           <div class="col-md-4">
             <div class="media">
-              <div class="icon bg-dark mr-3">Icon</div>
+              <div class="icon bg-warning mr-3"><i class="far fa-hand-scissors"></i></div>
               <div>
                 <h3>Customizable</h3>
                 <p>You don't need to be an expert to customize Robust. Our code is very readable and well documented.
@@ -166,7 +167,7 @@
           </div>
           <div class="col-md-4">
             <div class="media">
-              <div class="icon bg-dark mr-3">Icon</div>
+              <div class="icon bg-danger mr-3"><i class="far fa-comments"></i></div>
               <div>
                 <h3>Quick support</h3>
                 <p>Robust is supported by specialists who provide quick and effective support. Usually an email reply
@@ -178,7 +179,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="media">
-              <div class="icon bg-dark mr-3">Icon</div>
+              <div class="icon bg-success mr-3"><i class="far fa-clone"></i></div>
               <div>
                 <h3>Cross browser</h3>
                 <p>Robust works perfectly with: Chrome, Firefox, Safari, Opera and IE 10+. We're working hard to support
@@ -188,7 +189,7 @@
           </div>
           <div class="col-md-4">
             <div class="media">
-              <div class="icon bg-dark mr-3">Icon</div>
+              <div class="icon bg-secondary mr-3"><i class="far fa-gem"></i></div>
             <div>
               <h3>Clean code</h3>
               <p>We strictly followed Bootstrap's guidelines to make your integration as easy as possible. All code is
@@ -198,7 +199,7 @@
           </div>
           <div class="col-md-4">
             <div class="media">
-              <div class="icon bg-dark mr-3">Icon</div>
+              <div class="icon bg-primary mr-3"><i class="far fa-arrow-alt-circle-down"></i></div>
             <div>
               <h3>Free updates</h3>
               <p>From time to time you'll receive an update containing new components, improvements and bugfixes.</p>
