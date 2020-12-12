@@ -69,3 +69,8 @@ a {
 .img-background {
   opacity: 0.7;
 }
+
+dt, dd {
+  padding: 8px 16px;
+  margin: 0;
+}
