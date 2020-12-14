@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #343a40;
+}
+
 .navbar {
   font-weight: 600;
   font-size: 18px;
@@ -79,4 +86,16 @@ dt, dd {
 .nav-sidebar {
   height: 100vh;
   overflow-y: auto;
+}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.box {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
 }
